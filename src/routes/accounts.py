@@ -35,6 +35,7 @@ from security.interfaces import JWTAuthManagerInterface
 
 router = APIRouter()
 
+
 @router.post(
     "/register/",
     response_model=UserRegistrationResponseSchema,
