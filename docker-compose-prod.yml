@@ -58,7 +58,6 @@ services:
 
   migrator:
     build: .
-    container_name: alembic_migrator_theater
     command: ["/bin/bash", "/commands/run_migration.sh"]
     depends_on:
       db:
