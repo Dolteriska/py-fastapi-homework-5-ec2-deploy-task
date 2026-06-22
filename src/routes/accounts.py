@@ -34,7 +34,7 @@ from schemas import (
 from security.interfaces import JWTAuthManagerInterface
 
 router = APIRouter()
-
+#test
 
 @router.post(
     "/register/",
